@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+     background-color:#eee;
+}
+.container {
+    width: 100%;
+    max-width: 1210px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .nav-wrapper a:visited, a:link{
+    text-decoration: none;
+    color: black;
+  }
+  .nav-wrapper {
+    vertical-align: center;
+    padding: 20px 0;
+    background-color: #f6f6f6;
+
+    top: 0;
+    z-index: 1;
+  }
+   
+  .nav-wrapper .nav > .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    align-items: center;
+    text-align: center;
+    padding: auto 20px;
+  }
+  .nav-wrapper .nav > .container .nav-right,
+  .nav-wrapper .nav > .container .nav-center,
+  .nav-wrapper .nav > .container .nav-left {
+    padding: 20px;
+  }
+  .nav-wrapper .nav > .container .nav-right,
+  .nav-wrapper .nav > .container .nav-left {
+    width: 15%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .nav-wrapper .nav > .container .nav-right .nav-logo {
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: 900;
+  }
+  .nav-wrapper .nav > .container .nav-center {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    justify-content: space-evenly;
+  }
+  .nav-wrapper .nav > .container .nav-center > div {
+    margin-left: 5px;
+  }
+  .nav-wrapper .nav > .container .nav-left {
+    /* width: 20%; */
+    padding-left: 10px;
+  }
+
+  #main{
+
+      width: 100%;
+      display: flex;
+      padding-top: 1.5rem;
+     
+     
+  }
+
+   .item{
+      display: flex;
+   flex-direction: column;
+  } 
+  #cart{
+      display: flex;
+      flex-wrap: wrap;
+      flex: 1;
+      column-gap: 15px;
+      row-gap: 15px;
+  }
+#price{
+    flex:1;
+    text-align: center;
+    font-size: 2rem;
+}
+  .item img {
+      max-width: 200px;
+  }
+  .item h3,.item .price {
+      font-size: 1.5rem;
+  }
+
+  .item button {
+      background-color: none;
+      border: none;
+      outline: none;
+      color: rgba(255, 0, 0, 0.712);
+      cursor: pointer;
+      margin-left: 1rem;
+  }
+
+  .cart-check {
+        font-size: 2rem;
+      text-align: center;
+
+  }

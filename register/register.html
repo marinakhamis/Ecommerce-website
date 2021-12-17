@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="our ecommerce register">
+    <title>Ecommerce | Register</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+
+  <body>
+    <div class="nav-wrapper" id="nav-wrapper">
+        <nav class="nav">
+          <div class="container">
+            <!-- Right side of the nav-->
+            <div class="nav-right">
+              <div class="nav-logo" id="nav-logo">Outstock&#8482;</div>
+            </div>
+    
+            <!-- center side of the nav-->
+            <div class="nav-center">
+              <div class="nav-home">
+                <a href="../index.html"> Home </a>
+              </div>
+              <div class="shop" id="shop">
+                <a href="../products/products.html"> Shop </a></div>
+              <div class="login" >
+                <a href="../register/register.html">  Login </a>
+                 </div>
+              <div class="contact" id="contact">
+                <a href="../contact/contact.html">  contact </a></div>
+            </div>
+    
+            <!-- Left side of the nav-->
+            <div class="nav-left">
+              <div class="search" id="search">
+                search <i class="fas fa-search"></i>
+              </div>
+              <div class="cart" id="cart">
+                <a href="../cart/cart.html">cart</a> </div>
+                </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    <header>
+        <h1>Create Account</h1>
+        <ul>
+            <li><a href="home.html" class="active">Home</a></li>
+            <li><a href="#">Create Account</a></li>
+        </ul>
+    </header>
+    <main>
+        <section class="register">
+            <div class="register__btn">
+                
+                    <button id="login">Login</button>
+                    <button id="create" class="register__btn--active">create Account</button>
+            </div>
+            <div>
+                <!-- creat acount form -->
+                <form action="" method="post"  id="createAcount">
+                    <div class="register__username">
+                        <div>
+                            <input type="text" name="firstName" id="firstName" required placeholder="First Name" aria-label="enter your first naame">
+                            <p></p>
+                        </div>
+                        <div>
+                            <input type="text" name="lastName" id="lastName" required placeholder="Last Name" aria-label="enter your last naame">
+                            <p></p>
+                        </div>
+                    </div>
+                    <div>
+                        <input type="email" name="userEmail" id="userEmail" placeholder="Email" required aria-label="enter your email">
+                        <p></p>
+                    </div>
+                    <div class="register__password">
+                        <input type="password" name="password" id="password" required placeholder="Password" aria-label="enter password">
+                        <button id="toggelPassword" type="button">show</button>
+                        <p id="validPassword"></p>
+
+                    </div>
+                    <div>
+                        <input id="createacount" class="submit" type="submit" value="Create Account">
+                        <p></p>
+                    </div>
+                </form>
+                <!-- login form -->
+                <form action="" method="post" id="logIn">
+                    <div>
+                        <input type="email" name="userEmail" id="usermail" placeholder="Email" required aria-label="enter your email">
+                        
+                    </div>
+                    <div class="register__password">
+                        <input type="password" name="password" id="userPassword" required placeholder="Password" aria-label="enter password">
+        
+                    </div>
+                    <div>
+                        <input class="submit" id="sign" type="submit" value="login">
+                        <p></p>
+                    </div>
+                    <div>
+                        <button class="submit" id="forget">Forget your password</button>
+                    </div> 
+                </form>
+                <!-- reset password form -->
+                <form  method="post" id="resetPassword">
+                    <div>
+                        <legend>Reset your password</legend>
+                        <p>We will send you an email to reset your password.</p>
+                    </div>
+                    <div>
+                        <input type="email" name="userEmail" id="resetEmail" placeholder="Email" required aria-label="enter your email">
+                        <p></p>
+                    </div>
+                    <div>
+                        <input class="submit" type="submit" value="reset" id="reset">
+
+                    </div>
+                    <div>
+                        <button class="submit" id="back">back to login</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <section class="discountInfo">
+            <div>
+                <h2>Get Discount Info  </h2>
+                <p>Subscribe to the Outstock mailing list to receive updates on new arrivals, special offers and other discount information.</p>
+            </div>
+            <div class="discountInfo__subscribe">
+                <input type="email" name="subEmail" id="subEmail" required placeholder="Your Email address..." aria-label="Your Email address...">
+                <p></p>
+                <button id="subscribe">Subscribe</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+          <div class="footer-wrapper">
+            <div class="footer-overview">
+              <h3>Outstock</h3>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere,
+                facilis.
+              </p>
+              <div class="address">
+                Add: 1234 Heaven Stress, Beverly Hill, Melbourne, USA.
+              </div>
+              <div class="phone">Phone Number: (800) 123 456 789</div>
+              <div class="email">Email: Contact@erentheme.com</div>
+            </div>
+            <div class="information">
+              <h2>information</h2>
+              <ul>
+                <li>Careers</li>
+                <li>Search</li>
+                <li>Delivery info</li>
+                <li>Privacy policy</li>
+              </ul>
+            </div>
+            <div class="services">
+              <h2>Our services</h2>
+              <ul>
+                <li>Careers</li>
+                <li>Search</li>
+                <li>Delivery info</li>
+                <li>Privacy policy</li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer-contact">
+            <div>Copyright © 2020 Outstock all rights reserved.</div>
+            <div>
+              <ul>
+                <li>FB</li>
+                <li>Twitter</li>
+                <li>Insta</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+    <script src="javascript/register.js"></script>
+</body>
+</html>

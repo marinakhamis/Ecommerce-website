@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet"  href="/styles/home.css" />
+  
+
+    <title>OutStock &#8482;</title>
+  </head>
+
+  <body>
+    <header class="nav-wrapper" id="nav-wrapper">
+      <nav class="nav">
+        <div class="container">
+          <!-- Right side of the nav-->
+          <div class="nav-right">
+            <div class="nav-logo" id="nav-logo">Outstock&#8482;</div>
+          </div>
+
+          <!-- center side of the nav-->
+          <div class="nav-center">
+            <div class="nav-home">
+              <a href="#home"> Home </a>
+            </div>
+            <div class="shop" id="shop">
+              <a href="products/products.html"> Shop </a></div>
+            <div class="login" id="login">
+              <a href="register/register.html">  Login </a>
+               </div>
+            <div class="contact" id="contact">
+              <a href="contact/contact.html">  contact </a></div>
+          </div>
+
+          <!-- Left side of the nav-->
+          <div class="nav-left">
+            <div class="search" id="search">
+              search <i class="fas fa-search"></i>
+            </div>
+            <div class="cart" id="cart">
+             <a href="./cart/cart.html">cart</a> </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- The Home Carousel (Slider)-->
+    <header class="carousel">
+      <div class="first-slide slide">
+        <div class="slide-text">
+          <h3>Lorem ipsum</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia
+            nesciunt fugit porro consequatur
+          </p>
+          <button class="discover-now first-slide-discover">
+            Discover Now
+          </button>
+        </div>
+      </div>
+      <div class="second-slide slide">
+        <div class="slide-text">
+          <h3>Lorem ipsum</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia
+            nesciunt fugit porro consequatur
+          </p>
+          <button class="discover-now second-slide-discover">
+            Discover Now
+          </button>
+        </div>
+      </div>
+      <div class="third-slide slide">
+        <div class="slide-text">
+          <h3>Lorem ipsum</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia
+            nesciunt fugit porro consequatur
+          </p>
+          <button class="discover-now third-slide-discover">
+            Discover Now
+          </button>
+        </div>
+      </div>
+      <div style="text-align: center" class="dot-container">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+      </div>
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </header>
+    <div class="discover container">
+      <div class="first-card discover-card">
+        <img src="../media/img/banner1.webp" class="banner" />
+        <!--             <h4> Lorem ipsum</h4>
+            <p> Lorem ipsum dolor sit amet consectetur</p> -->
+      </div>
+      <div class="second-card discover-card">
+        <img src="../media/img/banner2.webp" class="banner" />
+
+        <!--             <h4> Lorem ipsum</h4>
+            <p> Lorem ipsum dolor sit amet consectetur </p> -->
+      </div>
+      <div class="third-card discover-card">
+        <img src="../media/img/banner3.webp" class="banner" />
+
+        <!--             <h4> Lorem ipsum</h4>
+            <p> Lorem ipsum dolor sit amet consectetur </p> -->
+      </div>
+    </div>
+
+    <!-- Start Trending Products-->
+    <section class="trending-products container">
+      <div class="trending-products-text">
+        <h2 class="trending-products-title">Trending Products</h2>
+        <p class="trending-products-p">
+          Mirum est notare quam littera gothica quam nunc putamus parum claram!
+        </p>
+      </div>
+      <div class="trending-products-wrapper">
+        <!-- trending-products-card #1 -->
+        <div class="trending-products-card">
+          <img
+            src="../media//products/bag.webp"
+            class="trending-products-img"
+          />
+          <div class="trending-products-name">Lorem</div>
+          <div class="trending-products-price">$200</div>
+        </div>
+
+        <!-- trending-products-card #2 -->
+        <div class="trending-products-card">
+          <img
+            src="../media/products/blackchair.webp"
+            class="trending-products-img"
+          />
+          <div class="trending-products-name">Lorem</div>
+          <div class="trending-products-price">$200</div>
+        </div>
+
+        <!-- trending-products-card #3 -->
+        <div class="trending-products-card">
+          <img
+            src="../media/products/chair.webp"
+            class="trending-products-img"
+          />
+          <div class="trending-products-name">Lorem</div>
+          <div class="trending-products-price">$200</div>
+        </div>
+
+        <!-- trending-products-card #4-->
+        <div class="trending-products-card">
+          <img
+            src="../media/products/clock.webp"
+            class="trending-products-img"
+          />
+          <div class="trending-products-name">Lorem</div>
+          <div class="trending-products-price">$200</div>
+        </div>
+        <!-- trending-products-card #5-->
+        <div class="trending-products-card">
+          <img
+            src="../media/products/coolchair.webp"
+            class="trending-products-img"
+          />
+          <div class="trending-products-name">Lorem</div>
+          <div class="trending-products-price">$200</div>
+        </div>
+        <!-- trending-products-card #6-->
+        <div class="trending-products-card">
+          <img
+            src="../media/products/hang-chair.webp"
+            class="trending-products-img"
+          />
+          <div class="trending-products-name">Lorem</div>
+          <div class="trending-products-price">$200</div>
+        </div>
+        <!-- trending-products-card #7-->
+        <div class="trending-products-card">
+          <img
+            src="../media/products/lamp.webp"
+            class="trending-products-img"
+          />
+          <div class="trending-products-name">Lorem</div>
+          <div class="trending-products-price">$200</div>
+        </div>
+        <!-- trending-products-card #8-->
+        <div class="trending-products-card">
+          <img
+            src="../media/products/pillow.webp"
+            class="trending-products-img"
+          />
+          <div class="trending-products-name">Lorem</div>
+          <div class="trending-products-price">$200</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Buy NOW-->
+    <div class="buy-now-wrapper">
+      <div class="buy-now buy-now-1">
+        <h5>Products furniture</h5>
+        <h4>Lorem ipsum dolor sit amet.</h4>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur,
+          sed.
+        </p>
+        <button class="buy-now-btn buy-now-btn1">
+          Buy now / <span style="color: #bd8448">$368.5 </span>
+        </button>
+      </div>
+      <div class="buy-now buy-now-2">
+        <h5>Products furniture</h5>
+        <h4>Lorem ipsum dolor sit amet.</h4>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur,
+          sed.
+        </p>
+        <button class="buy-now-btn buy-now-btn2">
+          Buy now / <span style="color: #bd8448">$368.5 </span>
+        </button>
+      </div>
+    </div>
+
+    <!-- SALE OFF -->
+    <div class="sale-off container">
+      <div class="sale-off-text">
+        <h2 class="sale-off-title">Sale OFF</h2>
+        <p class="sale-off-p">
+          Mirum est notare quam littera gothica quam nunc putamus parum claram!
+        </p>
+      </div>
+      <div class="sale-off-wrapper" id="sale-off-wrapper">
+        <!-- sale-off-card #1 -->
+        <div class="sale-off-card">
+          <img src="../media/products/bag.webp" class="sale-off-img" />
+          <div class="sale-off-name">Lorem</div>
+          <div class="sale-off-price">$200</div>
+        </div>
+
+        <!-- sale-off-card #2 -->
+        <div class="sale-off-card">
+          <img src="../media/products/blackchair.webp" class="sale-off-img" />
+          <div class="sale-off-name">Lorem</div>
+          <div class="sale-off-price">$200</div>
+        </div>
+
+        <!-- sale-off-card #3 -->
+        <div class="sale-off-card">
+          <img src="../media/products/chair.webp" class="sale-off-img" />
+          <div class="sale-off-name">Lorem</div>
+          <div class="sale-off-price">$200</div>
+        </div>
+
+        <!-- sale-off-card #4-->
+        <div class="sale-off-card">
+          <img src="../media/products/clock.webp" class="sale-off-img" />
+          <div class="sale-off-name">Lorem</div>
+          <div class="sale-off-price">$200</div>
+        </div>
+        <!-- sale-off-card #5-->
+        <div class="sale-off-card">
+          <img src="../media/products/coolchair.webp" class="sale-off-img" />
+          <div class="sale-off-name">Lorem</div>
+          <div class="sale-off-price">$200</div>
+        </div>
+        <!-- sale-off-card #6-->
+        <div class="sale-off-card">
+          <img src="../media/products/hang-chair.webp" class="sale-off-img" />
+          <div class="sale-off-name">Lorem</div>
+          <div class="sale-off-price">$200</div>
+        </div>
+      </div>
+      <button class="prev-product" id="prev-product">&#10094;</button>
+      <button class="next-product" id="next-product">&#10095;</button>
+    </div>
+
+    <button id="to-top" class="to-top" onclick="topFunction()">&#8593;</button>
+    <footer>
+      <div class="footer">
+        <div class="footer-wrapper">
+          <div class="footer-overview">
+            <h3>Outstock</h3>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere,
+              facilis.
+            </p>
+            <div class="address">
+              Add: 1234 Heaven Stress, Beverly Hill, Melbourne, USA.
+            </div>
+            <div class="phone">Phone Number: (800) 123 456 789</div>
+            <div class="email">Email: Contact@erentheme.com</div>
+          </div>
+          <div class="information">
+            <h2>information</h2>
+            <ul>
+              <li>Careers</li>
+              <li>Search</li>
+              <li>Delivery info</li>
+              <li>Privacy policy</li>
+            </ul>
+          </div>
+          <div class="services">
+            <h2>Our services</h2>
+            <ul>
+              <li>Careers</li>
+              <li>Search</li>
+              <li>Delivery info</li>
+              <li>Privacy policy</li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-contact">
+          <div>Copyright © 2020 Outstock all rights reserved.</div>
+          <div>
+            <ul>
+              <li>FB</li>
+              <li>Twitter</li>
+              <li>Insta</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="/js/home.js"></script>
+    <script src="/js/animation.js"></script>
+    <script src="/js/home-slider.js"></script>
+  </body>
+</html>
