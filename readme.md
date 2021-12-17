@@ -9,6 +9,13 @@ This is a mini-Ecommerce website
   3. [Filopateer Sobhy Rasmy](https://github.com/FilopateerRasmy)
   4. [Marina Khamis Habib](https://github.com/marinakhamis)
 
+## Performance 😎
+
+
+![Performance](https://user-images.githubusercontent.com/35566244/146556249-2a2d9236-4256-44cd-97f3-e071f1d4abe5.jpeg)
+
+
+
 ## Functionality
 
 1- **Home page functionality**
