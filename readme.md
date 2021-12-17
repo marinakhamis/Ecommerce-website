@@ -1,7 +1,7 @@
 # Outstock
 
 This is a mini-Ecommerce website
-
+### Live preview [here](https://zen-booth-4e2d0b.netlify.app/)
 - API used: [Fake store API](https://fakestoreapi.com/)
 - **Team members**:
   1. [Asmaa Gamal Ezzelrgal](https://github.com/asmaafayed02)
